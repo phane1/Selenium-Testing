@@ -17,3 +17,18 @@ Feature: Shopping functionality
         Given the user is on the home screen
         When the user hovers over a hyperlink
         Then the text color changes
+
+    Scenario: Verify user is able to checkout successfully
+        Given the user is on the home screen
+        And the user adds an item to cart
+        And the user views the cart
+        And the user clicks the checkout button
+        And the user enters their information
+        When the user clicks the finish button
+        Then the user will be able to checkout successfully
+
+    Scenario: Verify user is redirected to the Sauce Labs website when clicking the About
+        Given the user is on the home screen
+        And the user clicks the hamburger menu
+        When the user clicks the About option
+        Then the user will be redirected to Sauce Labs
