@@ -50,3 +50,12 @@ twitter_hyperlink = "//a[@data-test='social-twitter']"
 facebook_hyperlink = "//a[@data-test='social-facebook']"
 linkedin_hyperlink = "//a[@data-test='social-linkedin']"
 footer_message = "//div[@class='footer_copy']"
+filter = "//select[@data-test='product-sort-container']"
+z_to_a = "//option[@value='za']"
+a_to_z = "//option[@value='az']"
+low_to_hi = "//option[@value='lohi']"
+hi_to_low = "//option[@value='hilo']"
+
+# Item Name Locators
+item = "(//div[@data-test='inventory-item-name'])"
+item_price = "(//div[@data-test='inventory-item-price'])"
